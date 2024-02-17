@@ -38,8 +38,8 @@ struct ContentView: View {
         let url = URL(string: "https://www.linkedin.com/oauth/v2/accessToken")
         
        let oauthswift = OAuth2Swift(
-            consumerKey:    "86r3z043a1c7bp",
-            consumerSecret: "lU5VL518zrckSUoX",
+            consumerKey:    "*****",
+            consumerSecret: "*****",
             authorizeUrl:   "https://www.linkedin.com/oauth/v2/authorization",
             responseType:   "token"
         )
